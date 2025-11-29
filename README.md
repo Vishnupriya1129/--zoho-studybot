@@ -1,13 +1,14 @@
 # VP’s StudyBot 🖤
 
-A smart study assistant built using **Zoho SalesIQ**, **OpenAI**, and **Google Sheets**.  
+A smart study assistant built using **Zoho SalesIQ**, **OpenAI** ,VP StudyBot is a dynamic AI assistant for students. It exposes a single API endpoint `/answer` that returns JSON with `answer` and `suggestions`.  
 It explains topics, summarizes notes, and logs conversations for professional contest submission.
 
 ## ✨ Features
 - Topic selection: Math, Science, Language, Summarize Notes
 - AI‑powered answers via OpenAI
 - Google Sheets logging for transparency
-- Codeless bot flows in Zoho SalesIQ
+- Set environment variable `OPENAI_API_KEY`.
+-Install dependencies:
 - Simple demo webpage with embedded chat widget
 
 ## 🚀 Setup
